@@ -1,0 +1,129 @@
+.card {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 71px;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 800px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.header {
+    height: 100px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.body {
+    height: 400px;
+    border-bottom: 1px solid black;
+}
+.footer {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.headerleft {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    justify-content: center; /* Center items vertically */
+    /* Add some padding for spacing */
+}
+.headerleftbottomspan {
+    margin-top: -10px;
+    margin-left: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: #707070;
+}
+.headerlefttopspan {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-left: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.headerright {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center; /* Center elements vertically */
+    justify-content: flex-end; /* Align elements to the right */
+    padding-right: 10px; /* Add some padding for spacing */
+}
+.headerlefttop {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+.headerleftbottom {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.footertop{
+    margin-top: 10px;
+    height: 25%;
+    width: 100%;
+    flex-direction: row;
+}
+.footermiddle {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  align-items: center; /* Center elements vertically */
+  justify-content: left; /* Center elements horizontally */
+}
+.postimage {
+    width: 100%;
+    height: 100%;
+}
+.footerbottom {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center; /* Center elements vertically */
+  justify-content: left; /* Center elements horizontally */
+}
+.footertopright {
+    width: 50%;
+    height: 100%;
+}
+.footertopleft {
+    width: 50%;
+    height: 100%;
+}
+.like {
+    margin-top: 8px;
+    margin-left: 16px ;
+    height: 32px;
+    width: 32px;
+}
+.share {
+    margin-top: 8px;
+    margin-left: 16px ;
+    height: 32px;
+    width: 32px;
+}
+.date {
+    margin-bottom: 20px;
+    margin-left: 550px;
+    height: 32px;
+    width: 32px;
+}
+.spandescription{
+    font-size: 28px;
+    margin-left: 16px;
+}
+.spanlikes{
+    font-size: 20px;
+    color: #707070;
+    margin-left: 16px;
+}

@@ -1,0 +1,18 @@
+.authorip, .locationip {
+    width: 116px;
+}
+input {
+    margin: 2.5px;
+}
+.descriptionip {
+    width: 246px;
+}
+.form-container{
+    margin-top: 25vh;
+    border-radius: 5px;
+    width: 300px;
+    height: 110px;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 20px;
+}
